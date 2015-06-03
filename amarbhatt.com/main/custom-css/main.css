@@ -1,0 +1,142 @@
+body {
+	background-color: rgb(195,203,247);
+}
+
+/*h1 {
+	font-size: 48px;
+	color: black;
+	text-align: center;
+	max-width: 600px;
+	margin-right: auto;
+	margin-left: auto;
+}*/
+
+.title {
+	font-size: 52px;
+	color: red;
+}
+.about-block {
+	max-width: 600px;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.about-description {
+	font-size: 20px;
+}
+
+.category-block {
+	display: block;
+	float: left;
+}
+
+.category-title {
+	font-size: 36px;
+	color: blue;
+	text-align: center;
+	width: auto;
+}
+
+.category-items {
+	display: inline-block;
+	max-width: 768px;
+}
+
+/*h3 {
+	font-size: 20px;
+	color: orange;
+	text-align: center;
+}*/
+
+.date {
+	font-style: italic;
+	font-size: 15px;
+}
+
+.location {
+	font-style: italic;
+	font-size: 15px;
+}
+
+.position {
+	font-style: italic;
+	font-size: 15px;
+}
+
+.item-block {
+	width: 324px;
+	height: 384px;
+	border-bottom: solid gray;
+	border-right: solid gray;
+	margin: 10px 10px 10px 10px;
+	text-align: center;
+}
+
+.work-block {
+	padding-left: 50px;
+}
+
+
+.job {
+	float:left;
+}
+
+.element-details {
+	text-align: left;
+}
+
+.language {
+	font-style: italic;
+	font-size: 15px;
+}
+.project-block {
+	float:right;
+	padding-right: 50px;
+}
+
+.project {
+	float: left;
+}
+
+.education-block {
+	float: left;
+	padding-left: 50px;
+}
+
+.school {
+	float: left;
+}
+
+.leadership-block {
+	float: right;
+	padding-right: 50px;
+}
+
+.leader {
+	float:left;
+}
+
+.contact-block {
+	float: left;
+	padding-left: 50px;
+}
+
+.contact {
+	float:left;
+}
+
+h1 a {
+	color: black;
+	text-decoration: none;
+}
+h1 a:hover {
+	color: black;
+	text-decoration: none;
+}
+
+body { padding-top: 70px; }
+
+nav {
+	margin-left: 30;
+}

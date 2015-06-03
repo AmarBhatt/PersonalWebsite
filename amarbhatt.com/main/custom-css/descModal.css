@@ -1,0 +1,118 @@
+.modal-dialog { 
+   background: -webkit-linear-gradient(top, rgb(136,199,201) 58%, rgb(202,232,235) 100%);
+   background: -moz-linear-gradient(top, rgb(136,199,201) 58%, rgb(202,232,235) 100%);
+   background: -ms-linear-gradient(top, rgb(136,199,201) 58%, rgb(202,232,235) 100%);
+   background: -o-linear-gradient(top, rgb(136,199,201) 58%, rgb(202,232,235) 100%);
+   background: linear-gradient(top, rgb(136,199,201) 58%, rgb(202,232,235) 100%);
+   /*padding: 3%;
+   height: 94%;*/
+}
+
+
+.modal-header {
+  font-weight: bold;
+  text-align: center;
+}
+
+.paper {
+    font: normal 12px/1.5 "Lucida Grande", arial, sans-serif;
+    /*width: 50%;
+    height: 80%;*/
+    margin: 0 auto;
+    padding: 6px 5px 4px 42px;
+    position: relative;
+    color: #444;
+    line-height: 20px;
+    border: 1px solid #d2d2d2;
+    background: #fff;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#d9eaf3), color-stop(4%, #fff)) 0 4px;
+    background: -webkit-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+    background: -moz-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+    background: -ms-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+    background: -o-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+    background: linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+    -webkit-background-size: 100% 20px;
+    -moz-background-size: 100% 20px;
+    -ms-background-size: 100% 20px;
+    -o-background-size: 100% 20px;
+    background-size: 100% 20px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+    /*width: 816px;
+    height: 1056px;*/
+}
+
+
+.paper::before {
+  content: '';
+  position: absolute;
+  width: 4px;
+  top: 0;
+  left: 30px;
+  bottom: 0;
+  border: 1px solid;
+  border-color: transparent #efe4e4;
+}
+
+.head {
+   background-color: #FFF;
+   min-height: 93px;
+   margin-left: -42px;
+   margin-top: -4px;
+   text-align: center;
+   padding-top: 2%;
+   padding-left: 30px;
+}
+
+.modal-body .head p {
+   text-align: center;
+}
+
+.modal-body {
+    
+}
+
+.modal-body p {
+    text-align: justify;
+    text-justify: inter-word;
+    padding-right: 5%;
+}
+
+.modal-body .content {
+    display: inline-block;
+}
+
+img {
+    width:50%; /* you can use % */
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.modal-body ul {
+    font-style: italic;
+    padding-left: 20px;
+}
+
+.modal-body h5 {
+    padding-top: 5px;
+}
+
+.paper p div span {
+    display:inline-block;
+}
+
+.left-text {
+    text-align:left;
+    font-weight: bold;
+}
+
+.right-text {
+    text-align:right;
+    float:right;
+    padding-right: 2%;
+}
