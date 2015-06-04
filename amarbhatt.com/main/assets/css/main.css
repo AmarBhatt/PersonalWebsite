@@ -1,6 +1,7 @@
 @import url("font-awesome.min.css");
 @import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic");
 
+
 /*
 	Strata by HTML5 UP
 	html5up.net | @n33co
@@ -3108,14 +3109,35 @@
 	}
 
 nav {
-	margin-left: 30%;
-	border-bottom: none;
-
+	display: none !important;
 }
 
-nav a {
-	border-bottom: none;
+
+
+@media screen and (min-width: 768px) {
+	nav {
+		margin-left: 0% !important;
+		border-bottom: none !important;
+		display: block !important;
+	}
+
+	nav a {
+		border-bottom: none !important;
+	}
 }
+
+@media screen and (min-width: 980px) {
+	nav {
+		margin-left: 30% !important;
+		border-bottom: none !important;
+		display: block !important;
+	}
+
+	nav a {
+		border-bottom: none !important;
+	}
+}
+
 
 #main #one {
 	border-top: none;
@@ -3128,4 +3150,31 @@ nav a {
 #welcome p {
 	text-align: justify;
 	text-justify: inter-word;
+}
+
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 12px 0 6px rgba(224,224,224,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 12px 0 0 6px rgba(64,64,64,0.5); 
+}
+
+.carousel-inner > .item {
+  max-height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 500px;
 }

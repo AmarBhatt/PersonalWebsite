@@ -138,11 +138,33 @@
 									 }).done(function(response) {
 									   console.log(response); // if you're into that sorta thing
 									   
-									   $("#five").delay(2000).html("<h2 style='font-size: 70px;text-align: center;''>Thank you!</h2>");
+									   $("#contact-hide").delay(2000).html("<h2 style='font-size: 70px;text-align: center;''>Thank you!</h2>");
 									 });
 									});
 
 				
+	});
+
+	$(document).ready(function(){
+    	
+		var $window = $(window);
+    	var $pane = $('#pane1');
+	
+    	function checkWidth() {
+    	    var windowsize = $window.width();
+    	    if (windowsize > 980) {
+    	        $("html,body").scrollTop(140);
+    	    }
+    	}
+    	// Execute on load
+    	checkWidth();
+    	// Bind event listener
+    	$(window).resize(checkWidth);    	
+	});
+
+	$(".nav a").on("click", function(){
+   		$(".nav").find(".active").removeClass("active");
+   		$(this).parent().addClass("active");
 	});
 
 })(jQuery);
