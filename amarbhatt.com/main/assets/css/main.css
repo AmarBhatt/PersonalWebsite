@@ -2060,6 +2060,7 @@
         .image img {
             border-radius: 0.35em;
             display: block;
+            background-color: lightcyan;
         }
 
         .image.left {
@@ -2154,7 +2155,7 @@
 
             ul.icons li {
                 display: inline-block;
-                padding: 0 1.5em 0 1.5em;
+                padding: 0 3.5em 0 3.5em;
             }
 
                 ul.icons li:last-child {
@@ -2623,13 +2624,13 @@
             border-top: none;
         }
         #main h2 {
-            color: #888888;
+            color: white;
             font-size: 3em;
         }
 
         #main > section {
             border-top: solid 2px #efefef;
-            padding: 5em;
+            padding: 3em;
         }
 
             #main > section:first-child {
@@ -3015,15 +3016,15 @@ iframe {
   right: 0;
   text-decoration: none;
     border-bottom: none !important;
-  color: green;
+  color: aqua;
 }
 
 section:nth-child(even) {
-    background-color: lavender;
+    background-color: #6988A6;
 }
 
 section:nth-child(odd) {
-    background-color: beige;
+    background-color: #7875B3;
 }
 
 .hide-block {
@@ -3034,7 +3035,13 @@ section:nth-child(odd) {
     display: none;
 }
 
+ul.actions {
+    padding-top: 10px;
+}
 
+ul.actions li input {
+    background-color: aliceblue;
+}
 /* XLarge */
 
     @media screen and (max-width: 1800px) {
@@ -3236,12 +3243,16 @@ section:nth-child(odd) {
         /* Main */
 
             #main {
-                padding: 2.25em 1.5em 0.25em 1.5em;
+                /*padding: 2.25em 1.5em 0.25em 1.5em;*/
             }
 
                 #main > section {
                    /* margin: 2.25em 0 0 0;*/
-                    padding: 2.25em 0 0 0;
+                    /*padding: 2.25em 0 0 0;*/
+                      padding: 3em;
+                }
+                ul.icons li {
+                  padding: 0px 1.5em 0 1.5em;
                 }
 
         /* Poptrox */
@@ -3329,6 +3340,10 @@ section:nth-child(odd) {
 
             #main h2 {
                 font-size: 1.5em;
+            }
+
+            #main > section {
+                  padding: 2em;
             }
 
         /* Footer */
