@@ -2057,10 +2057,11 @@
                 opacity: 1.0;
             }
 
-        .image img {
+        .image  {
             border-radius: 0.35em;
             display: block;
             background-color: lightcyan;
+            width:100%;
         }
 
         .image.left {
@@ -2981,7 +2982,7 @@ iframe {
 }
 
 .poptrox-popup {
-    background: url('../assets/css/images/concrete_seamless.png'), url('../assets/css/images/concrete_seamless.png');
+    background: url('../css/images/concrete_seamless.png'), url('../css/images/concrete_seamless.png');
 }
 
 #about {
@@ -3408,5 +3409,11 @@ nav li.icon{
 }
 
 
-
+a:hover {
+    opacity: 0.5;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
 
