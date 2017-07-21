@@ -234,7 +234,26 @@ function expand(e) {
   var parent = e.parentElement;
   parent.children[1].style.display = parent.children[1].style.display == "block" ? "none" : "block";
   _gaq.push(['_trackEvent', 'Leadership', 'Click - Expand', e.title]);
-
-
 }
 
+
+$(document).ready(function(){
+    var $nav = $('#navnavhide');//Caching element
+    // hide .navbar first - you can also do this in css .nav{display:none;}
+    //$nav.css("visibility","hidden");
+    $nav.hide()
+    // fade in .navbar
+    $(function () {
+        $(window).scroll(function () {
+            // set distance user needs to scroll before we start fadeIn
+            if ($(this).scrollTop() > 100) { //For dynamic effect use $nav.height() instead of '100'
+                //$nav.css("visibility","visible");
+                $nav.fadeIn(500)
+            } else if ($(this).scrollTop() < 100){
+                //$nav.css("visibility","hidden");
+                $nav.fadeOut(500)
+            }
+        });
+    });
+
+});
