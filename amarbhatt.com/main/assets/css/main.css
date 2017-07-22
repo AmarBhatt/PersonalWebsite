@@ -3141,9 +3141,9 @@ ul.actions li input {
 
             #footer {
                 background-attachment: scroll;
-                background-color: #1f1815;
+                background-color: #000000;
                 /*background-image: url("images/overlay.png"), url("../../images/bg.jpg");*/
-                background-position: top left,                      bottom center;
+                background-position: bottom center;
                 background-repeat: repeat,                          no-repeat;
                 background-size: auto,                          cover;
                 bottom: auto;
