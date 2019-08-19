@@ -3417,3 +3417,9 @@ a:hover {
     transition: all 0.2s ease-in-out;
 }
 
+.date {
+    font-style: italic;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+}
